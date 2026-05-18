@@ -28,7 +28,7 @@ export default function Skills() {
     {
       title: "Tools & DevOps",
       emoji: "🛠️",
-      skills: ["Git", "GitHub", "Postman", "Jupyter", "Vercel", "Streamlit", "CI/CD"]
+      skills: ["Git", "GitHub", "Postman", "Jupyter", "Vercel", "Streamlit", "CI/CD","AWS", "Azure"]
     }
   ]
 
