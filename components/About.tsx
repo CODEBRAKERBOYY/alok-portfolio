@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function About() {
   return (
     <section id="about" className="py-20 px-6">
@@ -12,16 +14,20 @@ export default function About() {
 
         <div className="flex flex-col md:flex-row gap-12 items-center">
 
-          {/* Left - Avatar */}
+          {/* Left - Photo + Stats */}
           <div className="flex-shrink-0 flex flex-col items-center gap-6">
-            <div className="w-56 h-56 rounded-2xl border-4 border-purple-500/50 bg-purple-900/20 flex items-center justify-center">
-              <span className="text-7xl">👨‍💻</span>
+            <div className="w-56 h-56 rounded-2xl border-4 border-purple-500/50 overflow-hidden relative">
+              <Image
+                src="/images/alok.jpg"
+                alt="Alok Yadav"
+                fill
+                className="object-cover object-top"
+              />
             </div>
 
-            {/* Stats */}
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
-                <p className="text-2xl font-bold text-purple-400">4+</p>
+                <p className="text-2xl font-bold text-purple-400">5+</p>
                 <p className="text-gray-400 text-sm">Projects</p>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
@@ -29,7 +35,7 @@ export default function About() {
                 <p className="text-gray-400 text-sm">LeetCode</p>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
-                <p className="text-2xl font-bold text-purple-400">6+</p>
+                <p className="text-2xl font-bold text-purple-400">8+</p>
                 <p className="text-gray-400 text-sm">Certificates</p>
               </div>
               <div className="bg-white/5 border border-white/10 rounded-xl p-4 text-center">
@@ -44,24 +50,25 @@ export default function About() {
 
             <div>
               <h3 className="text-2xl font-bold text-white mb-3">
-                Full Stack AI Engineer & <span className="text-purple-400">Problem Solver</span>
+                Full Stack AI Engineer <span className="text-purple-400">&</span> Problem Solver
               </h3>
               <p className="text-gray-400 leading-relaxed text-lg">
-                I am a final year Computer Science student at <span className="text-white font-medium">Pranveer Singh Institute of Technology, Kanpur</span>. 
+                I am a final year Computer Science student at <span className="text-white font-medium">Pranveer Singh Institute of Technology, Kanpur</span>.
                 I have a strong passion for building AI-powered full stack applications that solve real world problems.
               </p>
             </div>
 
             <p className="text-gray-400 leading-relaxed">
-              During my internship at <span className="text-purple-400 font-medium">Infosys Springboard</span>, I built KnowMap — 
-              an AI-driven knowledge graph system using NLP and Sentence Transformers. 
+              During my internship at <span className="text-purple-400 font-medium">Infosys Springboard</span>, I built KnowMap —
+              an AI-driven knowledge graph system using NLP and Sentence Transformers.
               I love working with LLMs, RAG pipelines, and modern web technologies.
             </p>
 
             <p className="text-gray-400 leading-relaxed">
-              I have solved <span className="text-white font-medium">400+ coding problems</span> on LeetCode, 
-              earned a <span className="text-white font-medium">5-star C++ badge</span> on HackerRank, 
+              I have solved <span className="text-white font-medium">400+ coding problems</span> on LeetCode,
+              earned a <span className="text-white font-medium">5-star C++ badge</span> on HackerRank,
               and scored in the <span className="text-white font-medium">Top 10% nationwide</span> in eLitmus pH Test.
+              I am also a <span className="text-white font-medium">Vice Lead</span> at Coding Ninjas Student Club, PSIT.
             </p>
 
             {/* Info Grid */}
@@ -88,10 +95,24 @@ export default function About() {
                 </div>
               </div>
               <div className="flex items-center gap-3">
+                <span className="text-purple-400">📞</span>
+                <div>
+                  <p className="text-gray-500 text-sm">Phone</p>
+                  <p className="text-white text-sm font-medium">+91 7379916708</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-3">
                 <span className="text-purple-400">📧</span>
                 <div>
                   <p className="text-gray-500 text-sm">Email</p>
                   <p className="text-white text-sm font-medium">alok58484@gmail.com</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-purple-400">💼</span>
+                <div>
+                  <p className="text-gray-500 text-sm">Status</p>
+                  <p className="text-green-400 text-sm font-medium">Open to Work</p>
                 </div>
               </div>
             </div>
