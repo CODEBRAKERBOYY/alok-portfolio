@@ -94,6 +94,15 @@ export default function Experience() {
                   <p className="text-white font-bold mt-2"> </p>
                 </div>
               </div>
+              <div className="relative">
+                <div className="absolute -left-10 w-4 h-4 bg-purple-500/50 rounded-full border-4 border-black"></div>
+                <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-purple-500/50 transition">
+                  <h4 className="text-white font-bold text-lg">High School (X)</h4>
+                  <p className="text-purple-400 font-medium">Kendriya Vidyalaya</p>
+                  <p className="text-gray-500 text-sm mt-1">Kanpur, India • 2018 – 2019</p>
+                  <p className="text-white font-bold mt-2"> </p>
+                </div>
+              </div>
             </div>
           </div>
 
