@@ -82,7 +82,7 @@ export default function Experience() {
                   <h4 className="text-white font-bold text-lg">B.Tech Computer Science</h4>
                   <p className="text-purple-400 font-medium">Pranveer Singh Institute of Technology</p>
                   <p className="text-gray-500 text-sm mt-1">Kanpur, India • 2022 – 2026</p>
-                  <p className="text-white font-bold mt-2">GPA: 6.1/10</p>
+                  <p className="text-white font-bold mt-2"></p>
                 </div>
               </div>
               <div className="relative">
@@ -91,7 +91,7 @@ export default function Experience() {
                   <h4 className="text-white font-bold text-lg">Senior Secondary (XII)</h4>
                   <p className="text-purple-400 font-medium">Kendriya Vidyalaya</p>
                   <p className="text-gray-500 text-sm mt-1">Kanpur, India • 2020 – 2021</p>
-                  <p className="text-white font-bold mt-2">70%</p>
+                  <p className="text-white font-bold mt-2"> </p>
                 </div>
               </div>
             </div>
